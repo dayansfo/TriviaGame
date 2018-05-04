@@ -27,6 +27,7 @@ body{
   font-family: sans-serif;
   font-size: 30px;
   color: #5a6772; 
+  align-items: center;
 
 }
 
@@ -43,65 +44,10 @@ body{
   border-radius: 50px;
   margin: 10px 40px 10px 0px; 
   padding: 10px 10px ;
+
 } 
 
-/* #progress {
-  color: #2b2b2b;
-  font-size: 18px;
-} */
-
-
-/* 
-// // Quiz controllers
-//   function Quiz(questions) {
-//   this.score = 0;
-//   this.questions = questions;
-//   this.questionIndex = 0;
-// }
-
-// // Quiz functions attributes
-
-// Quiz.prototype.getQuestionIndex = function(){
-//   return this.questions
-// }
-
-// // Quiz functions
-// function Quiz(questions) {
-//   this.score = 0; 
-//   this.questions = questions; 
-//   this.questionIndex = 0; 
-// }
-
-// Quiz.prototype.getQuestionIndex = function(){
-//   return this.questions[this.questionIndex];
-// }
-
-// Quiz.prototype.isEnded = function(){
-//   return this.questions.length === this.questionIndex;
-// }
-
-// Quiz.prototype.guess = function(answer){
-//  if(this.getQuestionIndex().correctAnswer(answer)){
-//     this.score++;
-//   }
-//   this.questionIndex++;
-// }
-
-// // min25 and 33
-
-// function score(){
-//   var gameOverHtml = <h1>Result</h1>
-//       gameOverHtml += "<h2 id= 'score'>Your scores: "  + quiz.scores + "</h2>";
-//       var element = document.getElementById("quiz");
-//       element.innerHTML = gameOverHtml;
-// }
-
-
-
-//   // score function
-
-//   function score()
-//   {
-//     var q1 = document.questionQ1.value;
-
-//   } */
+.timer {
+  color: orange;
+  font-size: 25px;
+}
